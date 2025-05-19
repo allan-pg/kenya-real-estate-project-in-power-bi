@@ -1,6 +1,6 @@
 # 🏡 Power BI Project: Kenya Real Estate Data Model
 ## 📄 Project Overview
-This Power BI project analyzes house sales data in Kenya using a structured data model. It contains multiple .csv files:-    
+This Power BI project analyzes house sales data in Kenya using a structured data model. It contains multiple `.csv` files:-    
 - houses
 - owners
 - property tax
@@ -8,13 +8,13 @@ This Power BI project analyzes house sales data in Kenya using a structured data
 It combines above multiple datasets into a single interactive dashboard to extract key real estate insights.
 
 ## 📁 Files Used
-- houses_for_sale_kenya.csv: Contains house listings with details like price, size, location.
-- owners_details.csv: Includes property owner information.
-- property_tax.csv: Contains tax-related data per property.
-- house_utilities.csv: Tracks monthly utility costs per house.
+- `houses.csv`: Contains house listings with details like price, size, location.
+- `owners_details.csv`: Includes property owner information.
+- `property_tax.csv`: Contains tax-related data per property.
+- `house_utilities.csv`: Tracks monthly utility costs per house.
 
 ## 🧰 How to Use This Power BI File
-- Open the .pbix File  
+- Open the `housing.pbix` File  
 - Launch Power BI Desktop
 - Open the provided .pbix file from your local machine
 - Explore the Report Pages
