@@ -1,4 +1,6 @@
 # 🏡 Power BI Project: Kenya Real Estate Data Model
+![image](https://github.com/user-attachments/assets/50284f83-d70c-47ef-a527-3dedef197c08)
+
 ## 📄 Project Overview
 This Power BI project analyzes house sales data in Kenya using a structured data model. It contains multiple `.csv` files:-    
 - houses
