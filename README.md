@@ -65,3 +65,6 @@ In Model View, create these relationships:
                 |-----------------|  |-------------|
                 | PropertyID  FK  |  | PropertyID FK|
                 +-----------------+  +--------------+
+
+## Insights
+- 
