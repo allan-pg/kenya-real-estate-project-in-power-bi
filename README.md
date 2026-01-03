@@ -1,7 +1,7 @@
-# 🏡 Power BI Project: Kenya Real Estate Data Model
+#  Power BI Project: Kenya Real Estate Data Model
 ![image](https://github.com/user-attachments/assets/50284f83-d70c-47ef-a527-3dedef197c08)
 
-## 📄 Project Overview
+##  Project Overview
 This Power BI project analyzes house sales data in Kenya using a structured data model. It contains multiple `.csv` files:-    
 - houses
 - owners
@@ -15,14 +15,14 @@ It combines above multiple datasets into a single interactive dashboard to extra
 - `property_tax.csv`: Contains tax-related data per property.
 - `house_utilities.csv`: Tracks monthly utility costs per house.
 
-## 🧰 How to Use This Power BI File
+##  How to Use This Power BI File
 - Open the `housing.pbix` File  
 - Launch Power BI Desktop
 - Open the provided .pbix file from your local machine
 - Explore the Report Pages
 - Interact with Filters & Slicers
 
-## 🧰 Step-by-Step Instructions
+##  Step-by-Step Instructions
 ### 1. Load the Data
 - Open Power BI Desktop
 - Go to Home → Get Data → Text/CSV
@@ -42,9 +42,9 @@ In Power Query Editor (Transform Data):
 In Model View, create these relationships:  
 | From Table | Column     | To Table | Column     | Relationship | Cardinality | Direction |
 | ---------- | ---------- | -------- | ---------- | ------------ | ----------- | --------- |
-| Owners     | PropertyID | Houses   | PropertyID | Many-to-One  | Single → 🔄 |           |
-| Taxes      | PropertyID | Houses   | PropertyID | Many-to-One  | Single → 🔄 |           |
-| Utilities  | PropertyID | Houses   | PropertyID | Many-to-One  | Single → 🔄 |           |
+| Owners     | PropertyID | Houses   | PropertyID | Many-to-One  | Single  |           |
+| Taxes      | PropertyID | Houses   | PropertyID | Many-to-One  | Single  |           |
+| Utilities  | PropertyID | Houses   | PropertyID | Many-to-One  | Single  |           |
 ### 4. ERD Diagram
                    +--------------+
                    |   Owners     |
